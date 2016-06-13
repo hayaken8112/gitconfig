@@ -1,0 +1,20 @@
+[http]
+	sslVerify = false
+[user]
+	name = hayaken
+	email = hayashi8112@gmail.com
+
+[core]
+	editor = emacs
+
+[credential]
+	helper = cache
+
+[alias]
+	st = status
+	co = checkout
+	cm = commit
+	sm = submodule update --init --recursive
+	br = branch
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
